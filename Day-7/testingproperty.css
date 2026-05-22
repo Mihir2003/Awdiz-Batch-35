@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+#two {
+    position: static;
+    background-color: red;
+    top: 20px;
+    left: 20px;     
+}
+#three {
+    position: relative;
+    background-color: green;
+    top: 20px;
+    left: 20px;     
+}
+#four {
+    background-color: yellow;
+    top: 20px;
+    left: 20px;  
+    color: black;
+}
+#five {
+    background-color: orange;
+    top: 20px;
+    left: 20px;     
+}
+.outer {
+  width: 500px;
+  height: 300px;
+  overflow: scroll;
+  padding-left: 150px;
+}
