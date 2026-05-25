@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    color: red;
+    /* color: white; */
+  
+}
+/* #two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: cyan;
+}
+#three {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background-color: pink;
+} */
+ /* #one {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    background-color: blue;
+ }
+    
+ .outer {
+    width: 400px;
+    height: 400px;
+    padding-left: 150px;
+    overflow: auto;
+ } */
+  #one {
+    position: sticky;
+    top: 10px;
+    margin-left: 150px;
+    background-color: blue;
+  }
