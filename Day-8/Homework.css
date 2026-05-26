@@ -1,0 +1,52 @@
+header { 
+    background-color: rgb(252, 159, 159);
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    position: fixed;
+    padding: 10px;
+    left: 0;
+    top: 0;
+}
+body {
+    margin: 0;
+    padding: 80px;
+}
+.container {
+    position: relative;
+    background-color:rgb(209, 237, 237);
+    height: 150px;
+    width: 300px;
+    margin: 20px auto;
+    border : 1px solid black;
+}
+.btn {
+    position: absolute;
+    background-color: rgba(241, 8, 28, 0);
+    border: none;
+    top:57px;
+    left:115px;
+    font-size: large;
+}
+.div:hover .display-box{
+    display: block;
+}
+.div:hover .visibility-box{
+    visibility: visible;
+}
+.display-box {
+      display: none;
+    background-color: aquamarine;
+    height: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+}
+.visibility-box {
+     /* visibility: hidden; */
+    background-color: lightcoral;
+    height: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+}

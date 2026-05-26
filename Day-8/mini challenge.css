@@ -1,0 +1,41 @@
+* {
+    color:black;
+    text-align: center;
+    font-weight: bold;
+}
+.relative {
+    position: relative;
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    top: 20px;
+    left: 50px;
+   z-index : 1;
+}
+.relative-container {
+    position: relative;
+    background-color: rgb(122, 119, 119);
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+
+    
+}
+.absolute {
+    position: absolute;
+    background-color: lightcoral;
+    height: 150px;
+    width: 150px;
+    top: 20px;
+    left: 20px;
+    z-index : 2;
+}
+.fixed {
+    position: fixed;
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    top: 10px;
+    left: 10px;
+    z-index : 3;
+}
