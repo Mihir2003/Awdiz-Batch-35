@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10</title>
+    <style>
+        .GrowContainer {
+            border: 2px solid black;
+            display: flex;
+        }
+        .GrowContainer div {
+            border: 2px solid red;
+            flex-grow: 1;
+        }
+        .GrowContainer div:nth-child(2) {
+            flex-grow: 2;
+        }
+        .shrinkContainer {
+            border: 2px solid black;
+            display: flex;
+        }
+        .shrinkContainer div {
+            border: 2px solid red;
+            /* width: 500px; */
+            flex-shrink: 1;
+            flex-basis: 500px;
+        }
+        .shrinkContainer div:nth-child(2) {
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Testing flex-grow properties -->
+
+<!-- <div class="GrowContainer">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div> -->
+
+<!-- Testing flex-shrink properties -->
+
+<div class="shrinkContainer">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+</body>
+</html>
