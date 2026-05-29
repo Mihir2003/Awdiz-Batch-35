@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My Resume</title>
+    <style>
+      body {
+        background-color: rgb(163, 229, 255);
+      }
+      h1 {
+        background-color:rgb(93, 93, 250);
+      }
+      h2 {
+        background-color: rgb(93, 93, 250);
+      }
+      footer  {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+      }
+      @media (max-width: 768px) {
+        body { background-color: rgb(251, 32, 32);
+        }
+      }
+        @media (min-width: 1024px) {
+          body { background-color: rgb(163, 255, 163);
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mihir Nighol</h1>
+      <p>Full Stack Developer</p>
+    </header>
+    <nav style="text-align: center; display: flex; justify-content: center; gap: 20px;font-size: 18px; font-weight: bold;">
+      <a style="text-decoration: none; color: black;" href="#about" >About</a>
+      <a style="text-decoration: none; color: black;" href="#skills">Skills</a>
+      <a style="text-decoration: none; color: black;" href="#contact">Contact</a>
+    </nav>
+    <hr />
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate Full Stack Developer with experience in building web
+          applications using modern technologies
+        </p>
+      </section>
+      <hr/>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+        </ul>
+      </section>
+      <hr/>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Email: mihir.nighol@example.com
+          Phone: (123) 456-7890
+        </p>
+      </section>
+      <hr/>
+    </main>
+    <footer>
+        <p>&copy; 2026 Mihir Nighol. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
