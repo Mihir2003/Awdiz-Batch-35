@@ -1,0 +1,79 @@
+  * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+      }
+      #screen {
+        /* height: 100vh; */
+        width: 100%;
+        /* border: 12px solid blue; */
+      }
+      #navCnt {
+        height: 70px;
+        width: 100%;
+        background-color: lightblue;
+      }
+      #navCnt > div {
+        display: flex;
+        justify-content: space-between;
+        width: 92%;
+        height: 100%;
+        /* border: 2px solid red; */
+        margin: auto;
+        align-items: center;
+      }
+      /* #navCnt > div div {
+        border: 2px solid red;
+      } */
+      #naviCnt {
+        display: flex;
+        gap: 50px;
+        /* justify-content: space-between; */
+      }
+      #menuIcon {
+        display: none;
+      }
+      #bodyCnt {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      #bodyCnt > div {
+        height: 350px;
+        width: 23%;
+        border: 2px solid red;
+        margin-bottom: 20px;
+      }
+
+      @media (max-width: 500px) {
+        h4 {
+          font-size: 16px;
+        }
+        #naviCnt {
+          border: 2px solid red;
+          display: none;
+        }
+        #menuIcon {
+          display: block;
+        }
+        #bodyCnt > div {
+          width: 48%;
+          /* background-color: lightgray; */
+        }
+      }
+      @media (min-width: 501px) and (max-width: 770px) {
+        #decoreNavi,
+        #kidsNavi,
+        #homeNavi {
+          display: none;
+        }
+
+        #menuIcon {
+          display: block;
+        }
+        #bodyCnt > div {
+          width: 32%;
+          /* background-color: green; */
+        }
+      }
