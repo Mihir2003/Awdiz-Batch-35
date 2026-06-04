@@ -1,0 +1,213 @@
+* {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: Roboto, Arial, sans-serif;
+      }
+      #screen {
+        width: 100%;
+        /* height: 100vh; */
+        border: 5px solid blue;
+      }
+      #navBodyCnt {
+        width: 78%;
+        /* border: 5px solid red; */
+        height: 100%;
+        margin: auto;
+      }
+      #topNavCnt {
+        width: 100%;
+        /* border: 2px solid green; */
+        border-bottom: 1px solid gray;
+      }
+      #locationNavCnt {
+        width: 100%;
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+      }
+      .titleStyle {
+        padding: 10px 40px;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .flipkartTitleStyle {
+        background-color: #ffe51f;
+      }
+      .travelTitleStyle {
+        background-color: #f0f0f0;
+      }
+      .clickBlueStyle {
+        color: blue;
+      }
+      #leftLocationNavCnt {
+        width: 22%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-between;
+      }
+      #rightLocationNavCnt {
+        width: 30%;
+        /* border: 2px solid red; */
+        align-self: center;
+      }
+      #rightLocationNavCnt p {
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      #searchNavCnt {
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+      }
+      #leftSearchNavCnt {
+        width: 74%;
+        border: 2px solid #289eff;
+        border-radius: 10px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+      }
+      #leftSearchNavCnt span {
+        margin: 0 14px;
+      }
+      #leftSearchNavCnt input {
+        width: 90%;
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 16px;
+      }
+      #rightSearchNavCnt {
+        width: 24%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      #bottomNavCnt {
+        width: 100%;
+        border-bottom: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+      }
+      #bottomNavCnt > div {
+        /* border: 1px solid black; */
+        text-align: center;
+      }
+
+      #bottomNavCnt > div p {
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      #sliderCnt {
+        width: 100%;
+        /* border: 2px solid orange; */
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      .sliderImageCnt {
+        width: 32%;
+        height: 200px;
+      }
+      .imgStyle {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+      }
+
+      .commonCnt {
+        /* border: 2px solid red; */
+        width: 100%;
+        border-radius: 20px;
+        margin: 10px 0;
+        background: linear-gradient(to bottom, #ef0d0d, #f58787);
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+      .commonCnt h3 {
+        margin: 10px 10px;
+        color : white;
+      }
+      .productGridCnt {
+        background-color: white;
+        width: 96%;
+        margin: 10px auto;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .productGridItem {
+        height: 200px;
+        width: 25%;
+        padding: 10px;
+        /* border : 1px solid black */
+      }
+    
+      .Spotlightcnt {
+        max-width: 1100px;
+        margin: auto;
+      }
+      .Spotlightcnt h2 {
+        margin-bottom:20px;
+        font-size:32px;
+        font-weight:600;
+      }
+      .imgcard {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+      }
+      .card {
+        background:#fff;
+        border-radius:16px;
+        box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        cursor:pointer;
+        transition:0.3s;
+      }
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:80%;
+    height:300px;
+    
+}
+
+.offer{
+    background:#ffd84d;
+    text-align:center;
+    padding:12px;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.card h3{
+    text-align:center;
+    padding:15px;
+    font-size:24px;
+    font-weight:500;
+}
+
+          
+        
+        
+        
+        
+        
+        
+
+        
+    
+        
+      
