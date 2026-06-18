@@ -112,10 +112,10 @@ body{
     font-size:14px;
 }
 
+
 @media (max-width: 400px ) and (min-width: 1024px){
         .nav-links {
             display: none;
-            
 
         }
 
