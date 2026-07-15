@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Cart</title>
+
+    <link rel="stylesheet" href="./cart.css"">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="cart-container">
+      <div class="cart-items">
+        <h2>Your Cart</h2>
+
+        <div class="cart-card">
+          <img
+            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+            alt="Nike Shoe"
+          />
+
+          <div class="details">
+            <h3>Nike Air Max 270</h3>
+
+            <p class="color">Color : White / Red</p>
+            <p class="price">₹12,900</p>
+
+            <div class="size">
+              <label>Size</label>
+
+              <select>
+                <option>7 UK</option>
+                <option>8 UK</option>
+                <option>9 UK</option>
+                <option>10 UK</option>
+                <option>12 UK</option>
+
+              </select>
+            </div>
+
+            <div class="quantity">
+              <label>Qty</label>
+
+              <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="summary">
+        <h2>Order Summary</h2>
+
+        <div class="row">
+          <span>Subtotal</span>
+          <span>₹12,900</span>
+        </div>
+
+        <div class="row">
+          <span>Delivery</span>
+          <span>Free</span>
+        </div>
+
+        <div class="row">
+          <span>Tax</span>
+          <span>₹100</span>
+        </div>
+
+        <hr />
+
+        <div class="row total">
+          <span>Total</span>
+          <span>₹13,000</span>
+        </div>
+
+        <button>Proceed To Checkout</button>
+      </div>
+    </section>
+  </body>
+</html>

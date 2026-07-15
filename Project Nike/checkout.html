@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./checkout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="checkout">
+      <!-- Left Side -->
+      <div class="checkout-form">
+        <h2>Checkout</h2>
+
+        <div class="section">
+          <h3>Contact Information</h3>
+
+          <input type="email" placeholder="Email Address" />
+          <input type="text" placeholder="Phone Number" />
+        </div>
+
+        <div class="section">
+          <h3>Shipping Address</h3>
+
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="text" placeholder="Address" />
+          <input type="text" placeholder="Apartment (Optional)" />
+
+          <div class="row">
+            <input type="text" placeholder="City" />
+            <input type="text" placeholder="PIN Code" />
+          </div>
+
+          <input type="text" placeholder="State" />
+        </div>
+
+        <div class="section">
+          <h3>Payment</h3>
+
+          <input type="text" placeholder="Card Number" />
+
+          <div class="row">
+            <input type="text" placeholder="MM/YY" />
+            <input type="text" placeholder="CVV" />
+          </div>
+
+          <input type="text" placeholder="Card Holder Name" />
+        </div>
+
+        <button>PLACE ORDER</button>
+      </div>
+
+      <!-- Right Side -->
+
+      <div class="order-summary">
+        <h2>Order Summary</h2>
+
+        <div class="product">
+          <img
+            src="https://static.nike.com/a/images/t_default/0dc5fa85-8e1b-43d6-bca5-8ec6f13c7b65/AIR+FORCE+1+%2707.png"
+          />
+
+          <div>
+            <h4>Nike Air Force 1</h4>
+
+            <p>White / UK 9</p>
+
+            <span>Qty : 1</span>
+          </div>
+
+          <h3>$120</h3>
+        </div>
+
+        <hr />
+
+        <div class="price">
+          <p>Subtotal</p>
+          <span>$120</span>
+        </div>
+
+        <div class="price">
+          <p>Shipping</p>
+          <span>Free</span>
+        </div>
+
+        <div class="price">
+          <p>Tax</p>
+          <span>$10</span>
+        </div>
+
+        <hr />
+
+        <div class="total">
+          <h3>Total</h3>
+
+          <h2>$130</h2>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
