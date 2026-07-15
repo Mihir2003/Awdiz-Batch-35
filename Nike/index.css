@@ -124,7 +124,7 @@ header {
    HERO SECTION
 =========================== */
 
-.hero {
+.bodyCnt {
   min-height: 100vh;
 
   display: flex;
@@ -135,24 +135,24 @@ header {
   background: #f5f5f5;
 }
 
-.hero-left {
+.body-left {
   flex: 1;
 }
 
-.hero-left span {
+.body-left span {
   color: #888;
   letter-spacing: 3px;
   font-size: 14px;
 }
 
-.hero-left h1 {
+.body-left h1 {
   font-size: 85px;
   line-height: 95px;
   margin: 20px 0;
   font-weight: 800;
 }
 
-.hero-left p {
+.body-left p {
   width: 500px;
   max-width: 100%;
 
@@ -165,7 +165,7 @@ header {
 
 /* Buttons */
 
-.hero-buttons {
+.body-buttons {
   display: flex;
   gap: 20px;
 }
@@ -208,14 +208,13 @@ header {
 
 /* Right */
 
-.hero-right {
+.body-right {
   flex: 1;
-
   display: flex;
   justify-content: center;
 }
 
-.hero-right img {
+.body-right img {
   width: 650px;
   max-width: 100%;
 }
@@ -279,10 +278,10 @@ header {
 }
 
 /* ===========================
-   HERO RESPONSIVE
+   BODY RESPONSIVE
 =========================== */
 
-@media (max-width: 992px) {
+@media (max-width: 720px) {
   .hero {
     flex-direction: column-reverse;
 
@@ -291,47 +290,48 @@ header {
     padding-top: 130px;
   }
 
-  .hero-left h1 {
+  .body-left h1 {
     font-size: 65px;
 
     line-height: 75px;
   }
 
-  .hero-left p {
+  .body-left p {
     margin: auto;
 
     margin-bottom: 30px;
   }
 
-  .hero-buttons {
+  .body-buttons {
     justify-content: center;
   }
 
-  .hero-right img {
-    width: 500px;
+  .body-right img {
+    width: 800px;
+    display: none;
+
   }
 }
 
 @media (max-width: 600px) {
-  .hero {
+  .bodyCnt {
     padding: 120px 25px 60px;
   }
 
-  .hero-left h1 {
+  .body-left h1 {
     font-size: 48px;
 
     line-height: 58px;
   }
 
-  .hero-left p {
+  .body-left p {
     font-size: 15px;
 
     line-height: 28px;
   }
 
-  .hero-buttons {
+  .body-buttons {
     flex-direction: column;
-
     align-items: center;
   }
 
@@ -341,7 +341,7 @@ header {
   }
 
   .hero-right img {
-    width: 330px;
+    display: hidden;
   }
 
   .title h2 {
@@ -769,10 +769,6 @@ section {
 
   .about-text p {
     font-size: 15px;
-  }
-
-  .newsletter h2 {
-    font-size: 26px;
   }
 
   .copyright {
