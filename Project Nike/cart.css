@@ -114,6 +114,10 @@ border-radius:50px;
 cursor:pointer;
 transition:.3s;
 }
+button a{
+text-decoration:none;
+color:white;
+}
 
 button:hover{
 background:#333;

@@ -77,6 +77,10 @@ button {
   transition: 0.3s;
   font-weight: bold;
 }
+button a {
+  text-decoration: none;
+  color: #fff;
+} 
 
 button:hover {
   background: #333;

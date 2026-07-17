@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.success-container {
+  width: 100%;
+  max-width: 900px;
+  background: #fff;
+  border-radius: 12px;
+  text-align: center;
+  padding: 70px 40px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.circle-area {
+  width: 220px;
+  height: 220px;
+  margin: auto;
+  position: relative;
+}
+
+.success-icon {
+  width: 100px;
+  height: 100px;
+  background: black ;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 55px;
+  box-shadow: 0 12px 25px black;
+}
+
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  background: black ;
+}
+
+.dot1 {
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 50%;
+}
+
+.dot2 {
+  width: 6px;
+  height: 6px;
+  top: 15px;
+  right: 40px;
+}
+
+.dot3 {
+  width: 14px;
+  height: 14px;
+  top: 60px;
+  right: 5px;
+}
+
+.dot4 {
+  width: 6px;
+  height: 6px;
+  top: 110px;
+  right: 0;
+}
+
+.dot5 {
+  width: 12px;
+  height: 12px;
+  bottom: 30px;
+  right: 20px;
+}
+
+.dot6 {
+  width: 5px;
+  height: 5px;
+  bottom: 0;
+  left: 50%;
+}
+
+.dot7 {
+  width: 10px;
+  height: 10px;
+  bottom: 30px;
+  left: 15px;
+}
+
+.dot8 {
+  width: 6px;
+  height: 6px;
+  top: 120px;
+  left: 0;
+}
+
+.dot9 {
+  width: 13px;
+  height: 13px;
+  top: 60px;
+  left: 5px;
+}
+
+.dot10 {
+  width: 6px;
+  height: 6px;
+  top: 20px;
+  left: 35px;
+}
+
+.dot11 {
+  width: 5px;
+  height: 5px;
+  top: 35px;
+  left: 90px;
+}
+
+.dot12 {
+  width: 5px;
+  height: 5px;
+  top: 35px;
+  right: 90px;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 40px;
+  color: #222;
+}
+
+p {
+  margin-top: 20px;
+  color: #999;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.buttons {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 16px 45px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.view {
+  border: 2px solid #ddd;
+  color: #444;
+  background: #fff;
+}
+
+.view:hover {
+  background: #f4f4f4;
+}
+
+.continue {
+  background: black ;
+  color: #fff;
+}
+
+.continue:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 480px) {
+  .success-container {
+    padding: 40px 20px;
+  }
+
+  .circle-area {
+    width: 170px;
+    height: 170px;
+  }
+
+  .success-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 45px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 15px;
+  }
+}
