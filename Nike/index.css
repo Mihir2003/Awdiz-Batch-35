@@ -45,6 +45,27 @@ button {
   outline: none;
 }
 
+.top-bar{
+    background:#ffff;
+    height:44px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding:0 50px;
+}
+
+.top-links{
+    display:flex;
+    gap:12px;
+    align-items:center;
+}
+
+.top-links a{
+    text-decoration:none;
+    color:#111;
+    font-size:14px;
+    font-weight:500;
+}
 /* ===========================
    NAVBAR
 =========================== */
@@ -79,6 +100,8 @@ header {
 .nav-links {
   display: flex;
   gap: 35px;
+  align-items: center;
+  font-weight: bold;
 }
 
 .nav-links a {
@@ -622,7 +645,7 @@ footer {
 }
 
 .footer-container {
-  max-width: 1300px;
+  max-width: 100%;
   margin: auto;
   padding: 70px 8%;
   display: grid;
@@ -807,4 +830,94 @@ button:hover {
 ::selection {
   background: #111;
   color: #fff;
+}
+
+/* ===========================
+   Mobile Responsive (480px)
+=========================== */
+
+@media (max-width:480px){
+
+.top-bar{
+    display:none;
+}
+
+.navbar{
+    padding:15px;
+    display:grid;
+    grid-template-columns:1fr auto 1fr;
+    align-items:center;
+}
+
+/* Logo Left */
+.logo{
+    justify-self:start;
+}
+
+.logo img{
+    width:55px;
+}
+
+/* Hamburger Center */
+.menu-btn{
+    display:block;
+    justify-self:center;
+    font-size:24px;
+    cursor:pointer;
+}
+
+/* Icons Right */
+.icons{
+    justify-self:end;
+    gap:12px;
+}
+
+/* Hide search input */
+.search-box{
+    background:transparent;
+    padding:0;
+}
+
+.search-box input{
+    display:none;
+}
+
+.search-box i{
+    font-size:18px;
+}
+
+.icons .fa-bag-shopping{
+    font-size:18px;
+}
+
+/* Mobile Menu */
+
+.nav-links{
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background:#fff;
+    flex-direction:column;
+    align-items:center;
+    gap:25px;
+    padding:30px 0;
+    transform:translateY(-150%);
+    transition:.4s;
+    box-shadow:0 10px 15px rgba(0,0,0,.1);
+}
+
+#menu:checked ~ .nav-links{
+    transform:translateY(0);
+}
+
+.nav-links a{
+    font-size:18px;
+}
+
+/* Prevent checkbox from showing */
+#menu{
+    display:none;
+}
+
 }

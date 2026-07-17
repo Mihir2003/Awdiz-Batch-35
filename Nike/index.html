@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nike Project</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../Project Nike/menspage.css" />
+    <link rel="stylesheet" href="./Navbarr.css" />
+    <link rel="stylesheet" href="../Project Nike/womenspage.css" />
 
     <!-- Font Awesome -->
     <link
@@ -21,13 +24,19 @@
 
   <body>
      <!-- NAVBAR  -->
-
-    <header>
+     <header>
+      <div class="top-bar">
+        <div class="top-links">
+          <a href="#">Sign Up</a>
+          <span>|</span>
+          <a href="#">Log In</a>
+        </div>
+      </div>
       <nav class="navbar">
         <div class="logo">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg"
-            alt="logo"
+            alt="Nikelogo"
           />
         </div>
 
@@ -40,17 +49,17 @@
         </label>
 
         <ul class="nav-links">
-          <li><a href="#">New</a></li>
-          <li><a href="#">Men</a></li>
-          <li><a href="#">Women</a></li>
+          <li><a href="../Project Nike/menspage.html">Men</a></li>
+          <li><a href="../Project Nike/womenspage.html">Women</a></li>
           <li><a href="#">Kids</a></li>
           <li><a href="#">Sports</a></li>
         </ul>
 
         <div class="icons">
-          <i class="fa-solid fa-magnifying-glass"></i>
-
-          <i class="fa-regular fa-heart"></i>
+          <div class="search-box">
+            <input type="text" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
 
           <i class="fa-solid fa-bag-shopping"></i>
         </div>
